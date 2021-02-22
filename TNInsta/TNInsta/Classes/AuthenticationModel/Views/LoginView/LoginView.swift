@@ -64,9 +64,9 @@ struct LoginView: View {
                 .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealWidth: 100, maxWidth: .infinity, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealHeight: 45, maxHeight: 45, alignment: .center)
                 .font(.subheadline)
                 .foregroundColor(.white)
-                .background(Color("AppColor"))
                 .cornerRadius(5)
-                
+                .buttonStyle(ContainedButtonStyle())
+                .previewDisplayName("ContainedButtonStyle")
                 // MARK: Social Login
                 HStack(spacing: 10.0) {
                     Rectangle()
